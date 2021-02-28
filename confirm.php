@@ -28,6 +28,7 @@ $cnxn = connect();
             <a class="nav-link" href="index.html">Resume</a>
             <a class="nav-link" href="guestbook.html">Guestbook Signup</a>
             <a class="nav-link" href="admin.php">Admin Portal</a>
+            <a class="nav-link" href="https://github.com/Madmanmayson/portfolio">Github</a>
         </div>
     </nav>
 </header>
