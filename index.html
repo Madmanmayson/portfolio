@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <div class="navbar-nav justify-content-around w-100">
+            <a class="nav-link" href="index.html">Resume</a>
+            <a class="nav-link" href="guestbook.html">Guestbook Signup</a>
+            <a class="nav-link" href="admin.php">Admin Portal</a>
+        </div>
+    </nav>
+</header>
+
+<div class="container my-5">
+
+    <!-- Nice jumbotron for the header to help make it stand out. -->
+    <div class="jumbotron">
+        <h1>Dylan Hardy's Resume</h1>
+        <p class="lead">The growth of a software developer over the years.</p>
+        <hr class="mx-2">
+        <div class="d-flex flex-row flex-wrap">
+            <div class="mr-auto">
+                <a href="mailto:dylanhardy97@gmail.com">
+                    <svg class="icon">
+                        <use href="images/symbol-defs.svg#email"></use>
+                    </svg>
+                    <span>dylanhardy97@gmail.com</span>
+                </a>
+                <br>
+                <a href="tel:425-578-4424">
+                    <svg class="icon">
+                        <use href="images/symbol-defs.svg#phone"></use>
+                    </svg>
+                    <span>425-578-4424</span>
+                </a>
+            </div>
+            <div>
+                <a href="https://linkedin.com/in/dylan-hardy/">
+                    <svg class="icon">
+                        <use href="images/symbol-defs.svg#website"></use>
+                    </svg>
+                    <span>linkedin.com/in/dylan-hardy/</span>
+                </a>
+                <br>
+                <a href="https://github.com/Madmanmayson">
+                    <svg class="icon">
+                        <use href="images/symbol-defs.svg#website"></use>
+                    </svg>
+                    <span>github.com/Madmanmayson</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Category-->
+    <div class="my-4">
+        <h2>Skills and Languages</h2>
+        <hr class="mx-2">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3"> <!-- Languages -->
+                <h4>Languages</h4>
+                <ul>
+                    <li>C#</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3"> <!-- Web Dev -->
+                <h4>Web Development</h4>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Bootstrap 4</li>
+                    <li>JQuery</li>
+                    <li>AJAX</li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3"> <!-- APIs -->
+                <h4>APIs</h4>
+                <ul>
+                    <li>REST</li>
+                    <li>WebSocket</li>
+                    <li>WebHooks</li>
+                    <li>Express.js</li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3"> <!-- Tools -->
+                <h4>Tools</h4>
+                <ul>
+                    <li>Git</li>
+                    <li>Visual Studio 2017/2019</li>
+                    <li>Visual Studio Code</li>
+                    <li>InteliJ IDEA</li>
+                    <li>PHPStorm</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- NOTE FOR FUTURE: Maybe look into creating a nice timeline control for showing education/work history? -->
+    <!-- Education -->
+    <div class="my-4">
+        <h2>Education</h2>
+        <hr class="mx-2">
+        <div class="media">
+            <img src="images/GRC.png" class="mr-3 align-self-start" alt="Green River College Logo">
+            <div class="media-body">
+                <h4>Green River College: 2019 - Present</h4>
+                <p>
+                    <b>Bachelor of Applied Science: Software Development: 2020 - Present</b><br>
+                    Courses: Systems Programming, Web Development Frameworks
+                </p>
+                <p>
+                    <b>Associate of Applied Science: Information Technology: 2019- 2020</b><br>
+                    Courses: Database Fundamentals, Front-End Web Development, Web Programming with JavaScript
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="my-4">
+        <h2>Experience and Projects</h2>
+        <hr class="mx-2">
+        <div class="media my-3">
+            <img src="images/Coneybeare.png" class="mr-3 align-self-start" alt="Amazon Logo">
+            <div class="media-body">
+                <h4><b>[Project]</b> <a href="http://https://ctrl-alt-delete.greenriverdev.com/">Coneybeare Sustainability Catalog</a>: 2021</h4>
+                <p>
+                    - Assisted with developing a proposed website for Coneybeare to feature their Sustainability
+                    Catalog.
+                    <br>
+                    - Utilized Bootstrap 4 for much of the layout and design to creates a responsive website.
+                    <br>
+                    - Implemented a combination of AJAX and PHP with SQL integrated was utilized for the backend for
+                    managing the
+                    catalog database in the website itself and its admin portal.
+                </p>
+            </div>
+        </div>
+        <div class="media my-3">
+            <img src="images/Amazon.png" class="mr-3 align-self-start" alt="Amazon Logo">
+            <div class="media-body">
+                <h4><b>[Experience]</b> Tier 1 Amazon Associate | Inbound Problem Solve: 2017-2019</h4>
+                <p>Worked in various areas of Inbound Problem Solve including:</p>
+                <p><b>Inventory in Odd Locations (IOL)</b> - identifying and locating inventory that had been missing
+                    for 3
+                    days (eventually I managed to get this down to 2 days) based entirely off of virtual inventory
+                    records to determine what happened to it and worked with other inbound areas and managers to try and
+                    reduce the amount of missing inventory that occurred in the first place</p>
+                <p><b>Inbound Support Services (ISS)</b> - Assisting vendors with any issues they were having with
+                    customer
+                    complaints and other inventory issues they were having</p>
+                <p><b>Inbound Problem Solve/Backlog</b> - Resolving various issues with both physical and virtual
+                    inventory of
+                    large and small scales that prevented it from being stowed onto shelves.</p>
+            </div>
+        </div>
+        <div class="media my-3">
+            <img src="images/Frogger.png" class="mr-3 align-self-start" alt="Amazon Logo">
+            <div class="media-body">
+                <h4><b>[Project]</b> <a href="http://dhardy97.greenriverdev.com/IT207/IT207%20Final%20Project/games/Frogger/index.html">In Browser Frogger</a>: 2020</h4>
+                <p>
+                    - Developed a simple game of frogger which included features such as random level generation and
+                    seeded map generation.
+                    <br>
+                    - Utilized 2D Axis-Aligned Bounding Box collision to determine when in a game over state.
+                </p>
+            </div>
+        </div>
+        <div class="media my-3">
+            <img src="images/KCVK.png" class="mr-3 align-self-start" alt="Amazon Logo">
+            <div class="media-body">
+                <h4><b>[Project]</b> <a href="https://github.com/Madmanmayson/KanColleViewer">Kancolle Viewer Kai</a>: 2016-2018</h4>
+                <p>
+                    - Maintained the English translation branch and certain plugins of a data viewer and analytical tool
+                    for an online browser game.
+                    <br>
+                    - Created a new Logger plugin for certain in game features utilizing WPF for UI/UX design and
+                    Model-View-Viewmodel (MVVM) architecture for internal structure.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+<script src="scripts/svg-polyfill.js"></script>
+</body>
+
+</html>

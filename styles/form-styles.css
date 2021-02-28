@@ -1,0 +1,31 @@
+label.required::after{
+    content: " *required";
+    color: red;
+}
+
+fieldset{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+legend{
+    margin: 0 .25rem;
+    padding: 0 1rem;
+    width: auto !important;
+}
+
+span.error{
+    color: red;
+    background-color: initial;
+    display: inline!important;
+}
+
+.error{
+    border-color: red;
+}
+
+.form-group .error-text{
+    display: none;
+}
